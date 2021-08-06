@@ -148,7 +148,7 @@ def is_inside_rect(rect_x, rect_y, rect_width, rect_height, x, y):
 
 #20. Create a function called compare_names which takes the arguments, name1 and name2. 
 # If name 1 is the NOT the same as name 2 check then run the following:
-# - print name 1 is are the same 
+# - print "name 1 is are the same as name 2"
 # - If name 1 is longer than name 2 (use len function to find the length of the names), print "name 1 is longer than name 2".
 # - else, if name 1 and 2 are the same length, print "name 1 and name 2 are the same length".
 # - else print "name 2 is longer than name 1"
