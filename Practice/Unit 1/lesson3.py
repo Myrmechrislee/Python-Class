@@ -19,16 +19,22 @@
 # 10. what is 17 (0b10001) ^ 24 (0b11000)?
 
 # 11. translate if christophe_age is 17 then run() to code. 
+christophe_age = 14
+def run():
+    pass
 
 # 12. translate to code: if banana_age is less than apple_age then print "Banana is younger", otherwise print "apple is younger"
+banana_age, apple_age = 0, 0
 
 #13. translate to code: if jenny_age is less than or equal to 4 then run function block with argument "Jenny",
 # otherwise, if jenny_age is less than 12, run function warn with argument "Jenny",
 # otherwise run function allow with argument "Jenny". 
+jenny_age, block, warn, allow = 0, lambda x: None, lambda x: None, lambda x: None
 
 #14. translate to code: if height is less than 160, print "Short".
 # or else, if height is less than 190, print "Average".
 # otherwise, print("Tall")
+height = 0
 
 #15. Define a function f1 with argument x.
 # If x is less than or equal to -2, return the y value of y=2x - 3

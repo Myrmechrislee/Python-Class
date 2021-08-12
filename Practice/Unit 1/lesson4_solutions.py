@@ -42,10 +42,12 @@ a = [
 a = [[0, 1, 0, 0, 1], [1, 0, 1, 0, 0], [0, 1, 0, 1, 0], [1, 0, 1, 0, 1], [1, 1, 1, 1, 0]]
 
 # 6. create a loop that runs function login with no arguments while not is_logged_in
+is_logged_in, login = True, lambda: None
 while not is_logged_in:
     login()
 
 # 7. create loop that runs function lower_temp() while temp is above 27. 
+temp, lower_temp = 0, lambda: None
 while temp > 27:
     lower_temp()
 

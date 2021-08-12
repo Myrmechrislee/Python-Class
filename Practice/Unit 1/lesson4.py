@@ -25,6 +25,10 @@
 #   [ 1 1 1 1 0 ]
 
 # 6. create a loop that runs function login with no arguments while not is_logged_in
+is_logged_in, login = False, lambda: None
+
+# 7. create loop that runs function lower_temp() while temp is above 27. 
+temp, lower_temp = 0, lambda: None
 
 # 8. a) define a variable eggs to the int 7
 
