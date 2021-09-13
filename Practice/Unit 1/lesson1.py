@@ -26,7 +26,7 @@
 
 # 13. i) the acceleration of gravity is -9.8 m/s. Store that in a variable g and state its type. 
 
-#13. ii) save velocity of an object falling after 8 seconds as variable v (v=a*t). 
+# 13. ii) save velocity of an object falling after 8 seconds as variable v (v=a*t). 
 # Print its type and value
 
 # 14. what is the type of str(-10)?
@@ -50,14 +50,14 @@
 
 # 21. iii) ask the user for "Rocket Ship Speed (m/s): ", and save it under the variable "response". 
 
-# 22. iv) what is the data type of "response"?
+# 21. iv) what is the data type of "response"?
 
-# 22. v) save variable "v" as a float of the speed of the rocket. (float(data)->float)
+# 21. v) save variable "v" as a float of the speed of the rocket. (float(data)->float)
 
-# 22. vi) save variable "t" as the time it would take for the rocket to reach the sun. (t = d/v)
+# 21. vi) save variable "t" as the time it would take for the rocket to reach the sun. (t = d/v)
 
-# 22. vii) what is the type of "t"?
+# 21. vii) what is the type of "t"?
 
-# 22. viii) print in the format "it will take your rocket (t) seconds to reach the sun". 
+# 21. viii) print in the format "it will take your rocket (t) seconds to reach the sun". 
 
-# 22. ix) test your program. 
+# 21. ix) test your program. 

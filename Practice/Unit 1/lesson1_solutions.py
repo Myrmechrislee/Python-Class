@@ -80,20 +80,20 @@ d = 150.51*10**9
 # 21. iii) ask the user for "Rocket Ship Speed (m/s): ", and save it under the variable "response". 
 response = input("Rocket Ship Speed (m/s): ")
 
-# 22. iv) what is the data type of "response"?
+# 21. iv) what is the data type of "response"?
 print(type(response)) # <class 'str'>
 
-# 22. v) save variable "v" as a float of the speed of the rocket. (float(data)->float)
+# 21. v) save variable "v" as a float of the speed of the rocket. (float(data)->float)
 v = float(response)
 
-# 22. vi) save variable "t" as the time it would take for the rocket to reach the sun. (t = d/v)
+# 21. vi) save variable "t" as the time it would take for the rocket to reach the sun. (t = d/v)
 t = d/v
 
-# 22. vii) what is the type of "t"?
+# 21. vii) what is the type of "t"?
 # float
 
-# 22. viii) print in the format "it will take your rocket (t) seconds to reach the sun". 
+# 21. viii) print in the format "it will take your rocket (t) seconds to reach the sun". 
 print("it will take your rocket " + str(t) + " seconds to reach the sun")
 
-# 22. ix) test your program. 
+# 21. ix) test your program. 
 #run "python3 lesson1.py" on the commandline
