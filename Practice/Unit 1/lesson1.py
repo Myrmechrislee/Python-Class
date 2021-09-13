@@ -43,21 +43,32 @@
 
 # 20. Why can't you use the operator "+" with "hello world" and 3?
 
-# 21. the distance between the earth and the sun is 150.51*10^9 metres away from the sun. 
-# 21. i) what data type would you store that value under?
+# 21. Ask the user, "What is your favourite colour? ". 
 
-# 21. ii) set variable "d" to that value
+# 22. Ask the user, "What is 1+1? ". 
 
-# 21. iii) ask the user for "Rocket Ship Speed (m/s): ", and save it under the variable "response". 
+# 23. i) Ask the user, "what is your height? " and save the response to the variable "response". 
 
-# 21. iv) what is the data type of "response"?
+# 23. ii) what is the type of "response"? 
 
-# 21. v) save variable "v" as a float of the speed of the rocket. (float(data)->float)
+# 23. iii) convert "response" to float and save it as height. 
 
-# 21. vi) save variable "t" as the time it would take for the rocket to reach the sun. (t = d/v)
+# 24. the distance between the earth and the sun is 150.51*10^9 metres away from the sun. 
+# 24. i) what data type would you store that value under?
 
-# 21. vii) what is the type of "t"?
+# 24. ii) set variable "d" to that value
 
-# 21. viii) print in the format "it will take your rocket (t) seconds to reach the sun". 
+# 24. iii) ask the user for "Rocket Ship Speed (m/s): ", and save it under the variable "response". 
 
-# 21. ix) test your program. 
+# 24. iv) what is the data type of "response"?
+
+# 24. v) save variable "v" as a float of the speed of the rocket. (float(data)->float)
+
+# 24. vi) save variable "t" as the time it would take for the rocket to reach the sun. (t = d/v)
+
+# 24. vii) what is the type of "t"?
+
+# 24. viii) print in the format "it will take your rocket (t) seconds to reach the sun". 
+
+# 24. ix) test your program. 
+#run "python3 lesson1.py" on the commandline

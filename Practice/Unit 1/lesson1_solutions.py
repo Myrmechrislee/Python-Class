@@ -70,30 +70,45 @@ print(type(int(12.2))) # <class 'int'>
 # you cannot add a string and a int value. 
 # you cannot add objects with different types. 
 
-# 21. the distance between the earth and the sun is 150.51*10^9 metres away from the sun. 
-# 21. i) what data type would you store that value under?
-# float
+# 21. Ask the user, "What is your favourite colour? ". 
+input("What is your favourite colour? ")
 
-# 21. ii) set variable "d" to that value
-d = 150.51*10**9
+# 22. Ask the user, "What is 1+1? ". 
+input("What is 1+1? ")
 
-# 21. iii) ask the user for "Rocket Ship Speed (m/s): ", and save it under the variable "response". 
-response = input("Rocket Ship Speed (m/s): ")
+# 23. i) Ask the user, "what is your height? " and save the response to the variable "response". 
+response = input("What is your height? ")
 
-# 21. iv) what is the data type of "response"?
+# 23. ii) what is the type of "response"? 
 print(type(response)) # <class 'str'>
 
-# 21. v) save variable "v" as a float of the speed of the rocket. (float(data)->float)
-v = float(response)
+# 23. iii) convert "response" to float and save it as height. 
+height = float(response)
 
-# 21. vi) save variable "t" as the time it would take for the rocket to reach the sun. (t = d/v)
-t = d/v
-
-# 21. vii) what is the type of "t"?
+# 24. the distance between the earth and the sun is 150.51*10^9 metres away from the sun. 
+# 24. i) what data type would you store that value under?
 # float
 
-# 21. viii) print in the format "it will take your rocket (t) seconds to reach the sun". 
+# 24. ii) set variable "d" to that value
+d = 150.51*10**9
+
+# 24. iii) ask the user for "Rocket Ship Speed (m/s): ", and save it under the variable "response". 
+response = input("Rocket Ship Speed (m/s): ")
+
+# 24. iv) what is the data type of "response"?
+print(type(response)) # <class 'str'>
+
+# 24. v) save variable "v" as a float of the speed of the rocket. (float(data)->float)
+v = float(response)
+
+# 24. vi) save variable "t" as the time it would take for the rocket to reach the sun. (t = d/v)
+t = d/v
+
+# 24. vii) what is the type of "t"?
+print(type(t)) # <class 'float'>
+
+# 24. viii) print in the format "it will take your rocket (t) seconds to reach the sun". 
 print("it will take your rocket " + str(t) + " seconds to reach the sun")
 
-# 21. ix) test your program. 
+# 24. ix) test your program. 
 #run "python3 lesson1.py" on the commandline
