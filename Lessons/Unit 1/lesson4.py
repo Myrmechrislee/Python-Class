@@ -1,7 +1,7 @@
 import numpy
 #lists
 x = [1, 2, 3, 4]
-shopping_list = ["eggs", "milk", "bread", "meth"] #called array
+shopping_list = ["eggs", "milk", "bread", "meth"] #called array or list
 class_list = [
     "seongsoo",
     "chris",
