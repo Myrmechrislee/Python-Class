@@ -79,21 +79,22 @@ def stats_box():
 
 draw_rectangle(board, square[0], square[1], square[2], square[3], 5, "blue")
 draw_circle()
-
-# while True:
-#   points.append(n.random.randint(-300, 300, (2)))
-#   stats_box()
-#   draw_point(points[-1][0], points[-1][1])
-#   time.sleep(1/4.0)
-#   for _ in range(12):
-#     u.undo()
-
-points = n.random.randint(-300, 300, (1000, 2))
 board.color("red")
-for p in points:
-  draw_point(p[0], p[1])
 
-stats_box()
+for _ in range(50):
+  points.append(n.random.randint(-300, 300, (2)))
+  stats_box()
+  draw_point(points[-1][0], points[-1][1])
+  time.sleep(1/4.0)
+  for _ in range(12):
+    u.undo()
+
+# points = n.random.randint(-300, 300, (1000, 2))
+# board.color("red")
+# for p in points:
+#   draw_point(p[0], p[1])
+
+# stats_box()
 
 ts = t.getscreen()
 ts.getcanvas().postscript(file="random.eps")
